@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Penyewaan Rental Mobil</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#harga">Harga</a></li>
+                <li><a href="#pesan">Pesan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Halaman Depan Promosi -->
+    <section id="home" class="promo">
+        <div class="promo-text">
+            <h1>Rental Mobil Najwan</h1>
+            <p>Nyaman, Aman, dan Harga Terjangkau. Pilih Mobil Rental Sesuai Kebutuhan Anda.</p>
+            <a href="#pesan" class="btn">Pesan Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Profil Usaha -->
+    <section id="profil">
+        <h2>Tentang Kami</h2>
+        <div class="profil-content">
+            <img src="image/logo.jpg" alt="Mobil Rental" class="profil-image">
+            <div class="profil-description">
+                <p>Rental Mobil kami menawarkan berbagai pilihan kendaraan untuk berbagai kebutuhan perjalanan, baik pribadi maupun bisnis. Kami menyediakan kendaraan dalam kondisi terbaik dengan harga yang kompetitif. Pelayanan ramah dan terpercaya untuk pengalaman sewa mobil yang menyenangkan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabel Harga -->
+    <section id="harga">
+        <h2>Harga Layanan</h2>
+        <div class="pricing-table">
+            <div class="pricing-card">
+                <h3>Avanza</h3>
+                <p>Rp 300.000/hari</p>
+                <p>Rp 2.000.000/minggu</p>
+            </div>
+            <div class="pricing-card">
+                <h3>Xpander</h3>
+                <p>Rp 500.000/hari</p>
+                <p>Rp 3.500.000/minggu</p>
+            </div>
+            <div class="pricing-card">
+                <h3>Civic Turbo</h3>
+                <p>Rp 800.000/hari</p>
+                <p>Rp 5.500.000/minggu</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Pemesanan -->
+<section id="pesan">
+    <h2>Form Pemesanan</h2>
+    <form action="pemesanan.html" method="GET">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+        
+        <label for="mobil">Pilih Mobil:</label>
+        <select id="mobil" name="mobil" required>
+            <option value="sedan">Avanza</option>
+            <option value="mpv">Xpander</option>
+            <option value="minibus">Civic Turbo</option>
+        </select>
+        
+        <label for="tanggal">Tanggal Penyewaan:</label>
+        <input type="date" id="tanggal" name="tanggal" required>
+        
+        <!-- Tombol Submit untuk mengirim form -->
+        <input type="submit" value="Pesan Sekarang">
+    </form>
+</section>
+
+    <!-- Info Media Sosial -->
+<section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Ikuti kami di media sosial:</p>
+    <div class="social-media-container">
+        <div class="social-media">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/NajwanNasution" class="social-icon">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/nwxynzz_" class="social-icon">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <!-- Twitter -->
+            <a href="https://twitter.com/najwannstt16" class="social-icon">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- Slider Gambar -->
+    <section id="slider">
+        <h2>Kami menyediakan Mobil</h2>
+        <div class="slider-container">
+            <img src="image/avanza.jpeg" alt="Mobil 1" class="slider-img">
+            <img src="image/xpander.jpeg" alt="Mobil 2" class="slider-img">
+            <img src="image/civic.jpeg" alt="Mobil 3" class="slider-img">
+        </div>
+    </section>
+
+    <!-- Profil Pengembang -->
+    <section id="developer">
+        <h2>Profil Pengembang</h2>
+        <p>Website ini dikembangkan oleh Tim WebDev yang berkomitmen memberikan pengalaman digital terbaik di bidang penyewaan kendaraan. Kami berfokus pada kemudahan akses, transparansi harga, dan kenyamanan pelanggan.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Rental Mobil Najwan. Semua hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html>

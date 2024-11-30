@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Atur elemen menjadi kolom */
+    height: 100vh; /* Tinggi penuh layar */
+  }
+  
+  .header {
+    background-color: lightgreen;
+    height: 50px; /* Tinggi header */
+  }
+  
+  .content {
+    display: flex; /* Layout horizontal untuk konten utama */
+    flex: 1; /* Mengisi ruang yang tersedia */
+  }
+  
+  .aside {
+    background-color: lightblue;
+    width: 150px; /* Lebar kolom aside */
+  }
+  
+  .article {
+    background-color: pink;
+    flex: 1; /* Mengisi ruang tersedia */
+    display: flex;
+    flex-wrap: wrap; /* Membungkus elemen jika tidak cukup ruang */
+    gap: 10px; /* Jarak antar elemen */
+    padding: 10px;
+  }
+  
+  .image {
+    width: calc(33.333% - 10px); /* Lebar setiap gambar */
+    height: 100px;
+    background-color: lightgray;
+    border: 1px solid #000;
+  }
+  
+  .footer {
+    background-color: lightgreen;
+    height: 50px; /* Tinggi footer */
+  }

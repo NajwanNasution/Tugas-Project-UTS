@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Atur elemen menjadi kolom */
+    height: 100vh; /* Tinggi penuh layar */
+  }
+  
+  .nav {
+    background-color: pink;
+    height: 50px; /* Tinggi navigasi */
+  }
+  
+  .header {
+    background-color: yellow;
+    height: 50px; /* Tinggi header */
+  }
+  
+  .content {
+    display: flex; /* Layout horizontal untuk konten utama */
+    flex: 1; /* Mengisi ruang yang tersedia */
+  }
+  
+  .article {
+    background-color: white;
+    flex: 2; /* Lebih besar dibandingkan aside */
+    padding: 10px;
+  }
+  
+  .aside {
+    background-color: lightblue;
+    flex: 1; /* Lebih kecil dibandingkan article */
+  }
+  
+  .footer {
+    background-color: yellow;
+    height: 50px; /* Tinggi footer */
+  }

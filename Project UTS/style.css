@@ -1,0 +1,198 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: gray;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.promo {
+    background-image: url('promo-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    padding: 80px 20px;
+}
+
+.promo h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.promo p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.promo .btn {
+    background-color: orange;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+}
+
+.promo .btn:hover {
+    background-color: black;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.profil-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.profil-image {
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profil-description {
+    width: 50%;
+    text-align: left;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 30%;
+}
+
+.pricing-card h3 {
+    font-size: 24px;
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 18px;
+}
+
+form input[type="submit"]:hover {
+    background-color: black;
+}
+
+#slider {
+    margin-top: 50px;
+}
+
+.slider-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.slider-img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Styling untuk bagian media sosial */
+.social-media {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#kontak {
+    background-color: burlywood;
+}
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #007BFF; /* Ganti warna saat hover */
+}
+
+.social-media img {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

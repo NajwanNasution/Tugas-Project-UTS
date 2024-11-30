@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Layout</title>
+  <link rel="stylesheet" href="Tugas 8.4 A.css">
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .nav {
+      background-color: pink;
+      height: 50px;
+    }
+    .header {
+      background-color: yellow;
+      height: 50px;
+    }
+    .content {
+      display: flex;
+      flex: 1;
+    }
+    .article {
+      background-color: white;
+      flex: 2;
+    }
+    .aside {
+      background-color: rgb(11, 232, 221);
+      flex: 1;
+    }
+    .footer {
+      background-color: yellow;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">Nav</div>
+    <div class="header">Header</div>
+    <div class="content">
+      <div class="article">Article</div>
+      <div class="aside">Aside</div>
+    </div>
+    <div class="footer">Footer</div>
+  </div>
+</body>
+</html>
